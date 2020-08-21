@@ -1,0 +1,14 @@
+main: com.github.johnnyjayjay.metacmd.MetaCommands
+version: 0.1.0
+author: JohnnyJayJay
+name: meta-commands
+
+commands:
+  delay:
+    description: Delays a command by a given number of ticks.
+    usage: delay [ticks] [command]
+    permission: metacmd.delay
+  chance:
+    description: Either executes a command or not, based on the given chance.
+    usage: chance [chance in percentage] [command]
+    permission: metacmd.chance
